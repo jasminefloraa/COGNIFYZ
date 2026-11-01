@@ -1,4 +1,4 @@
-# COGNIFYZ — Where Data Meets Intelligence
+<h1 align="center">COGNIFYZ — Where Data Meets Intelligence</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/COGNIFYZ-Front--End_Development-111827?style=for-the-badge" alt="Cognifyz Frontend Development" />
