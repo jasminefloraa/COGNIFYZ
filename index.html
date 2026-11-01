@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f5ef">
+  <meta name="description" content="An independent Cognifyz Technologies Front-End Development Internship experience exploring responsive design, dynamic data and human-centered interactions.">
+  <title>cogni.fyz — Where data meets intelligence</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer></script>
+  <script src="emailjs-config.js" defer></script>
+  <script src="script.js?v=2" defer></script>
+</head>
+<body>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+  <span class="cursor-follower" aria-hidden="true"></span>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav shell" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="cogni.fyz home">cogni<span>.</span>fyz</a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#live-data">Live data</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false">
+          <span class="theme-icon" aria-hidden="true">◐</span>
+          <span class="theme-label">Dark mode</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section-pad" id="home" aria-labelledby="hero-title">
+      <div class="hero-grid shell">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> An interactive frontend experiment</p>
+          <h1 id="hero-title">Good ideas deserve an <span class="highlight">intelligent interface.</span></h1>
+          <p class="hero-description">A living exploration of responsive design, dynamic data, and human-centered interactions — built with HTML, CSS and JavaScript.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#about">Explore the experience <span aria-hidden="true">↘</span></a>
+            <a class="button button-text" href="#live-data">Meet the data <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-footnote"><span class="rule"></span> An independent internship demonstration</div>
+        </div>
+
+        <div class="hero-art" aria-label="Interactive connected data illustration">
+          <div class="art-topline"><span>FIG. 01 / CONNECTIONS</span><span class="live-indicator">SYSTEM ACTIVE</span></div>
+          <div class="network">
+            <svg class="network-lines" viewBox="0 0 520 440" role="img" aria-label="Lines connect structure, signal, and response to a central idea">
+              <line x1="260" y1="220" x2="112" y2="116"></line>
+              <line x1="260" y1="220" x2="407" y2="116"></line>
+              <line x1="260" y1="220" x2="111" y2="325"></line>
+              <line x1="260" y1="220" x2="410" y2="325"></line>
+              <line class="line-faint" x1="112" y1="116" x2="111" y2="325"></line>
+              <line class="line-faint" x1="407" y1="116" x2="410" y2="325"></line>
+              <circle class="signal signal-one" r="4"><animateMotion dur="4.5s" repeatCount="indefinite" path="M260 220 L112 116"></animateMotion></circle>
+              <circle class="signal signal-two" r="4"><animateMotion dur="5s" repeatCount="indefinite" path="M260 220 L410 325"></animateMotion></circle>
+            </svg>
+            <button class="node node-center is-selected" type="button" data-node="data" aria-pressed="true" aria-label="Data: the information at the center">
+              <span class="node-core"></span><span class="node-name">DATA</span>
+            </button>
+            <button class="node node-structure" type="button" data-node="structure" aria-pressed="false" aria-label="Structure: give ideas a foundation">
+              <span class="node-core"></span><span class="node-name">HTML</span>
+            </button>
+            <button class="node node-signal" type="button" data-node="css" aria-pressed="false" aria-label="CSS: shape how information looks">
+              <span class="node-core"></span><span class="node-name">CSS</span>
+            </button>
+            <button class="node node-response" type="button" data-node="response" aria-pressed="false" aria-label="Response: make interactions matter">
+              <span class="node-core"></span><span class="node-name">JAVASCRIPT</span>
+            </button>
+            <div class="art-caption" aria-live="polite">
+              <span class="caption-index">01</span>
+              <span><strong id="node-title">Data gives an interface something to respond to.</strong><small id="node-description">Information travels through structure, expression, and interaction.</small></span>
+            </div>
+          </div>
+          <div class="art-bottomline"><span>SELECT A NODE TO EXPLORE</span><span>EST. IN CODE&nbsp; ↗</span></div>
+        </div>
+      </div>
+      <div class="float-field" aria-label="Floating frontend concept controls">
+        <div class="float-item float-far" data-depth=".22" style="--x: 72%; --y: 13%; --delay: -2s">
+          <button class="float-object code-chip chip-sky" type="button" data-node="structure" aria-label="HTML structure: highlight the structure node">
+            <span>&lt;section&gt;</span><span class="object-tip">HTML gives content its structure.</span>
+          </button>
+        </div>
+        <div class="float-item float-mid" data-depth=".42" style="--x: 87%; --y: 31%; --delay: -4s">
+          <button class="float-object code-chip chip-coral" type="button" data-node="css" aria-label="CSS expression: highlight the CSS node">
+            <span>{ color: coral; }</span><span class="object-tip">CSS gives structure its expression.</span>
+          </button>
+        </div>
+        <div class="float-item float-near" data-depth=".68" style="--x: 77%; --y: 67%; --delay: -1s">
+          <button class="float-object code-chip chip-lilac" type="button" data-node="response" aria-label="JavaScript response: highlight the response node">
+            <span>fetch( )<i class="chip-cursor"></i></span><span class="object-tip">JavaScript asks for data and responds.</span>
+          </button>
+        </div>
+        <div class="float-item float-far" data-depth=".25" style="--x: 92%; --y: 79%; --delay: -5s">
+          <button class="float-object json-chip" type="button" data-node="data" aria-label="JSON data: highlight the data node">
+            <span>{ id: 1,</span><span>&nbsp; title: ... }</span><span class="object-tip">JSON is a common shape for web data.</span>
+          </button>
+        </div>
+        <div class="float-item float-mid" data-depth=".48" style="--x: 57%; --y: 9%; --delay: -3s">
+          <button class="float-object swatch-chip" type="button" data-node="data" aria-label="Butter color swatch: highlight the data node">
+            <i></i><span>#F2D76B</span><span class="object-tip">Butter yellow marks the key actions.</span>
+          </button>
+        </div>
+        <div class="float-item float-near" data-depth=".72" style="--x: 92%; --y: 51%; --delay: -6s">
+          <button class="float-object theme-object" type="button" aria-label="Switch the page theme">
+            <span>THEME</span><i class="mini-switch"><b></b></i><span class="object-tip">A tiny switch for the whole page.</span>
+          </button>
+        </div>
+        <div class="float-item float-far float-skeleton" data-depth=".2" style="--x: 63%; --y: 82%; --delay: -7s" aria-hidden="true">
+          <span class="skeleton-object"><i></i><i></i><i></i></span>
+        </div>
+        <div class="float-item float-mid float-cursor" data-depth=".4" style="--x: 61%; --y: 31%; --delay: -2.5s" aria-hidden="true">
+          <span class="cursor-object"><svg viewBox="0 0 24 30"><path d="M4 2v20l5-5 4 9 4-2-4-8h7z"/></svg><i></i></span>
+        </div>
+        <span class="float-decoration deco-ring" aria-hidden="true"></span>
+        <span class="float-decoration deco-plus" aria-hidden="true">+</span>
+        <span class="float-decoration deco-dots" aria-hidden="true"></span>
+      </div>
+      <a class="scroll-cue" href="#about"><span class="mouse-cue"><i></i></span><span>SCROLL TO EXPLORE</span></a>
+    </section>
+    <div class="marquee" aria-label="Structure, expression, response, data, interface, experience">
+      <div class="marquee-track" aria-hidden="true"><span>STRUCTURE</span><i>✳</i><span>EXPRESSION</span><i>✳</i><span>RESPONSE</span><i>✳</i><span>DATA</span><i>✳</i><span>INTERFACE</span><i>✳</i><span>EXPERIENCE</span><i>✳</i><span>STRUCTURE</span><i>✳</i><span>EXPRESSION</span><i>✳</i><span>RESPONSE</span><i>✳</i><span>DATA</span><i>✳</i><span>INTERFACE</span><i>✳</i><span>EXPERIENCE</span><i>✳</i></div>
+    </div>
+
+    <section class="intro section-pad reveal accent-section" data-accent="sky" id="about" aria-labelledby="about-title">
+      <span class="section-wash" aria-hidden="true"></span>
+      <span class="section-echo about-echo" aria-hidden="true">&lt;main&gt;</span>
+      <div class="shell intro-grid">
+        <div class="section-index"><span>01</span><span class="index-line"></span><span>THE IDEA</span></div>
+        <div class="intro-content">
+          <p class="eyebrow">A little context</p>
+          <h2 id="about-title">Not just what a page <em>looks like.</em><br>How it <span class="highlight">feels to use.</span></h2>
+          <div class="intro-bottom">
+            <figure class="about-image">
+              <img src="assets/images/idea-orbit.svg" alt="An abstract illustration of a small yellow idea at the center of connected shapes and lines" width="680" height="400">
+              <figcaption>IDEAS IN RELATION / 001</figcaption>
+            </figure>
+            <div class="intro-note">
+              <p>This project explores the small decisions that turn a static page into a useful experience: clear structure, considered visual language, and interactions that respond with purpose.</p>
+              <!-- Task 2 demonstration: intentional inline color, font-size, and background-color styles. -->
+              <p class="inline-note" style="color: #272923; font-size: 0.78rem; background-color: #f2d76b;">An independent demonstration built for the Cognifyz Technologies Front-End Development Internship.</p>
+              <a class="text-link" href="#experience">See how it comes together <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="layers section-pad reveal accent-section" data-accent="coral" id="experience" aria-labelledby="layers-title">
+      <div class="shell">
+        <div class="section-heading">
+          <div class="section-index"><span>02</span><span class="index-line"></span><span>THE BUILD</span></div>
+          <div><p class="eyebrow">Three parts, working together</p><h2 id="layers-title">Three layers.<br><span class="serif-accent">One experience.</span></h2></div>
+          <p class="heading-aside">A good interface isn't one thing. It's a conversation between structure, expression, and response.</p>
+        </div>
+        <div class="layer-grid">
+          <article class="layer-card layer-html">
+            <div class="card-top"><span>01 / FOUNDATION</span><span class="card-symbol" aria-hidden="true">&lt;/&gt;</span></div>
+            <div class="layer-graphic html-graphic" aria-hidden="true"><span>&lt;article&gt;</span><i></i><i></i><i></i><span>&lt;/article&gt;</span></div>
+            <h3>HTML <span>— THE STRUCTURE</span></h3>
+            <p>Every meaningful experience starts with a clear structure.</p>
+            <button class="card-link" type="button" data-explain="html" aria-expanded="false">Explore the layer <span aria-hidden="true">↗</span></button>
+            <p class="card-detail" id="detail-html" hidden>Semantic HTML gives each part of this page a purpose — from landmarks and headings to labeled controls and a real image.</p>
+          </article>
+          <article class="layer-card layer-css">
+            <div class="card-top"><span>02 / EXPRESSION</span><span class="card-symbol" aria-hidden="true">Aa</span></div>
+            <div class="layer-graphic css-graphic" aria-hidden="true"><span class="graphic-swatch"></span><span class="graphic-type">Aa</span><span class="graphic-ruler"></span></div>
+            <h3>CSS <span>— THE EXPRESSION</span></h3>
+            <p>Color, layout and movement turn structure into an interface.</p>
+            <button class="card-link" type="button" data-explain="css" aria-expanded="false">Explore the layer <span aria-hidden="true">↗</span></button>
+            <p class="card-detail" id="detail-css" hidden>CSS custom properties coordinate both themes; grid, flexbox, and fluid type adapt the layout to different screens.</p>
+          </article>
+          <article class="layer-card layer-js">
+            <div class="card-top"><span>03 / INTERACTION</span><span class="card-symbol" aria-hidden="true">↳</span></div>
+            <div class="layer-graphic js-graphic" aria-hidden="true"><span class="pulse-ring"></span><span class="pulse-core"></span><span class="pulse-line"></span></div>
+            <h3>JAVASCRIPT <span>— THE RESPONSE</span></h3>
+            <p>Interactions make the interface respond to people.</p>
+            <button class="card-link" type="button" data-explain="js" aria-expanded="false">Explore the layer <span aria-hidden="true">↗</span></button>
+            <p class="card-detail" id="detail-js" hidden>JavaScript powers the theme, connected illustration, live API explorer, responsive menu, and form validation.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="response section-pad reveal accent-section" data-accent="lilac" aria-labelledby="response-title">
+      <div class="shell response-grid">
+        <div class="section-index"><span>03</span><span class="index-line"></span><span>TRY IT</span></div>
+        <div class="response-copy">
+          <p class="eyebrow">A small interaction study</p>
+          <h2 id="response-title">An interface<br>that <span class="highlight">responds.</span></h2>
+          <p>Static content has one state. An interactive experience changes with you. Pick a signal and watch the preview adapt.</p>
+          <div class="mode-controls" role="group" aria-label="Choose a preview state">
+            <button class="mode-button is-active" type="button" data-mode="focus" aria-pressed="true">Focus</button>
+            <button class="mode-button" type="button" data-mode="flow" aria-pressed="false">Flow</button>
+            <button class="mode-button" type="button" data-mode="quiet" aria-pressed="false">Quiet</button>
+          </div>
+          <button class="reset-preview" type="button">Reset preview <span aria-hidden="true">↺</span></button>
+        </div>
+        <div class="preview-wrap">
+          <div class="preview-panel" data-preview="focus">
+            <div class="preview-top"><span class="preview-status"><i></i> <span id="preview-status">STATE / FOCUS</span></span><span>LIVE PREVIEW</span></div>
+            <div class="preview-art" aria-hidden="true"><span class="preview-orbit orbit-a"></span><span class="preview-orbit orbit-b"></span><span class="preview-center"></span><span class="preview-star">✳</span></div>
+            <div class="preview-description"><span class="caption-index">0<span id="mode-number">1</span></span><div><h3 id="mode-title">A point of focus.</h3><p id="mode-description">One clear signal stands out from the noise.</p></div></div>
+            <div class="preview-footer"><span>INTERACTION / 001</span><span id="mode-tag">CONTRAST + CLARITY</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="data-section section-pad reveal accent-section" data-accent="teal" id="live-data" aria-labelledby="data-title">
+      <span class="section-echo data-echo" aria-hidden="true">{ data }</span>
+      <div class="shell">
+        <div class="data-heading">
+          <div class="section-index"><span>04</span><span class="index-line"></span><span>FROM THE WEB</span></div>
+          <div class="data-heading-main">
+            <p class="eyebrow">A live connection</p>
+            <h2 id="data-title">Small signals.<br><span class="serif-accent">Real data.</span></h2>
+            <p class="data-intro">Public sample data, fetched live and transformed into an interactive reading experience.</p>
+          </div>
+          <div class="api-source"><span class="api-pulse"></span><span>PUBLIC API<br><strong>LIVE FETCH</strong></span></div>
+        </div>
+        <div class="data-toolbar">
+          <label class="search-box" for="post-search">
+            <span aria-hidden="true">⌕</span>
+            <input id="post-search" type="search" placeholder="Search titles or descriptions" autocomplete="off" disabled>
+            <span class="search-hint">FILTER</span>
+          </label>
+          <p class="results-count" id="results-count" aria-live="polite">Connecting to source…</p>
+        </div>
+        <div class="post-grid" id="post-grid" aria-live="polite" aria-busy="true">
+          <div class="loading-state" id="loading-state"><span class="loader" aria-hidden="true"></span><span>Gathering the collection…</span></div>
+        </div>
+        <div class="data-footer">
+          <p class="source-note">Source: <a href="https://jsonplaceholder.typicode.com/posts" target="_blank" rel="noreferrer">JSONPlaceholder public sample API ↗</a></p>
+          <button class="button button-outline load-more" id="load-more" type="button" hidden>Load more <span aria-hidden="true">↓</span></button>
+          <button class="button button-outline retry-button" id="retry-posts" type="button" hidden>Try again <span aria-hidden="true">↻</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section-pad reveal" id="contact" aria-labelledby="contact-title">
+      <div class="shell contact-grid">
+        <div class="section-index"><span>05</span><span class="index-line"></span><span>YOUR TURN</span></div>
+        <div class="contact-copy">
+          <p class="eyebrow">A thoughtful little form</p>
+          <h2 id="contact-title">Let's make<br>something <span class="highlight">meaningful.</span></h2>
+          <p>A small form, a little validation, and a more thoughtful experience.</p>
+          <div class="contact-aside"><span class="aside-mark">✳</span><p>Validated details are sent through EmailJS after configuration. Email delivery is only confirmed by the service response.</p></div>
+        </div>
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-row">
+            <div class="field">
+              <label for="full-name">Full name <span>*</span></label>
+              <input id="full-name" name="name" type="text" autocomplete="name" placeholder="What should we call you?" required aria-describedby="name-error">
+              <small class="field-error" id="name-error"></small>
+            </div>
+            <div class="field">
+              <label for="email">Email address <span>*</span></label>
+              <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required aria-describedby="email-error">
+              <small class="field-error" id="email-error"></small>
+            </div>
+          </div>
+          <div class="field">
+            <label for="subject">Subject <span>*</span></label>
+            <input id="subject" name="subject" type="text" placeholder="What is this about?" required aria-describedby="subject-error">
+            <small class="field-error" id="subject-error"></small>
+          </div>
+          <div class="field">
+            <label for="message">Message <span>*</span></label>
+            <textarea id="message" name="message" rows="4" placeholder="Tell me a little more (at least 10 characters)." required minlength="10" aria-describedby="message-error"></textarea>
+            <small class="field-error" id="message-error"></small>
+          </div>
+          <div class="form-actions">
+            <button class="button button-primary submit-button" type="submit"><span class="submit-label">Check my message</span><svg class="submit-check" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg><span class="submit-arrow" aria-hidden="true">↗</span></button>
+            <button class="reset-form" type="reset">Clear form</button>
+          </div>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <a class="brand" href="#home" aria-label="cogni.fyz, back to top">cogni<span>.</span>fyz</a>
+      <p>An independent frontend experiment.<br>Made for learning, not on behalf of Cognifyz Technologies.</p>
+      <a class="back-top" href="#home">Back to the beginning <span aria-hidden="true">↑</span></a>
+      <span class="footer-meta">© <span id="year"></span> / BUILT WITH CURIOSITY</span>
+      <span class="easter-hint">psst, try typing cogni</span>
+    </div>
+  </footer>
+</body>
+</html>
