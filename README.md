@@ -1,111 +1,315 @@
-# cogni.fyz — Where Data Meets Intelligence
+# COGNIFYZ — Where Data Meets Intelligence
+
+<p align="center">
+  <img src="https://img.shields.io/badge/COGNIFYZ-Front--End_Development-111827?style=for-the-badge" alt="Cognifyz Frontend Development" />
+  <img src="https://img.shields.io/badge/Internship-Project-orange?style=for-the-badge" alt="Internship Project" />
+</p>
 
 <p align="center">
   <a href="https://cognifyz-blush.vercel.app/">
-    <img src="https://img.shields.io/badge/LIVE_DEMO-Visit_Website-222923?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
+    <img src="https://img.shields.io/badge/LIVE_DEMO-View_Project-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
   </a>
   <a href="https://github.com/jasminefloraa/COGNIFYZ">
-    <img src="https://img.shields.io/badge/GITHUB-Source_Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repository" />
+    <img src="https://img.shields.io/badge/GITHUB-Source_Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
 </p>
 
 <p align="center">
-  <strong>A thoughtful frontend experience where design, interaction, and dynamic data come together.</strong>
+  <strong>Where Data Meets Intelligence</strong>
+  <br/>
+  An interactive, responsive website developed as part of the Cognifyz Technologies Front-End Development Internship.
 </p>
 
 ---
 
-## Overview
+## About the Internship
 
-**cogni.fyz** is an interactive frontend web experience developed as an independent demonstration for the Cognifyz Technologies Front-End Development Internship.
+This project is developed as part of the **Front-End Development Internship Program at Cognifyz Technologies**.
 
-The project explores how a well-structured interface can become more engaging through responsive layouts, purposeful animations, interactive components, live API integration, and functional form handling.
+Cognifyz Technologies is a technology company specializing in data science and innovative technology solutions, including Artificial Intelligence (AI), Machine Learning (ML), and Data Analytics.
 
-Rather than presenting information as a static webpage, cogni.fyz focuses on creating an experience that responds to user interaction.
+The internship program provides practical development tasks designed to strengthen front-end development knowledge through progressive learning, beginning with fundamental HTML and CSS concepts and advancing towards JavaScript functionality, API integration, form validation, and modern styling techniques.
 
-## Live Preview
+The internship tasks are organized into four levels:
 
-**Explore the deployed application:**
+- Level 1 — Beginner
+- Level 2 — Intermediate
+- Level 3 — Advanced
+- Level 4 — Expert
 
-[https://cognifyz-blush.vercel.app/](https://cognifyz-blush.vercel.app/)
+The program requires completion of at least **6 out of 8 tasks**.
+
+---
+
+## Project Overview
+
+**Project Title:** Interactive Website Development
+
+**Internship Domain:** Front-End Development
+
+**Organization:** Cognifyz Technologies
+
+**Project Type:** Responsive and Interactive Web Application
+
+The objective of this project is to develop a responsive and interactive website that demonstrates practical front-end development techniques.
+
+The implementation brings together HTML structure, CSS styling, responsive layouts, JavaScript interactions, public API integration, and form validation into a cohesive website experience.
+
+Instead of treating every concept as an isolated exercise, the project combines the core requirements into an integrated application.
+
+## Live Application
+
+<blockquote>
+  <strong>Explore the deployed project:</strong>
+
+  https://cognifyz-blush.vercel.app/
+
+  The application is hosted on Vercel and publicly accessible.
+</blockquote>
+
+---
+
+## Internship Task Completion
+
+<details>
+<summary><strong>Task Progress — 6 of 8 tasks</strong></summary>
+
+| Level | Task | Description | Status |
+|---|---|---|---|
+| Level 1 | Task 1 | Basic HTML Page | Completed |
+| Level 1 | Task 2 | Inline CSS Styling | Completed |
+| Level 2 | Task 3 | Responsive Design | Completed |
+| Level 2 | Task 4 | Interactive Button / JavaScript | Completed |
+| Level 3 | Task 5 | API Integration | Completed |
+| Level 3 | Task 6 | Form Styling and Validation | Completed |
+| Level 4 | Task 7 | Component-Based Styling with Bootstrap | Not yet implemented |
+| Level 4 | Task 8 | CSS Preprocessing with Sass | Not yet implemented |
+
+</details>
+
+<blockquote>
+  **Current progress: 6/8 tasks**
+
+  The first three internship levels are covered by the current implementation. The two Level 4 tasks are not claimed as completed.
+</blockquote>
+
+---
+
+## Detailed Task Implementation
+
+### Level 1 — Beginner
+
+#### Task 1: Basic HTML Page
+
+**Objective:** Build the foundational structure of a webpage using HTML.
+
+**Implementation:**
+- Created the main HTML document using standard HTML5 structure.
+- Organized content using semantic HTML elements.
+- Added headings, paragraphs, images, navigation, and content sections.
+- Used appropriate document metadata and page titles.
+
+**Concepts Practiced:**
+- HTML document structure
+- Semantic elements
+- Headings and paragraphs
+- Images and links
+- Page organization
+
+#### Task 2: Styling with Inline CSS
+
+**Objective:** Understand how CSS controls the appearance of HTML elements.
+
+**Implementation:**
+- Practiced inline styling for text, colors, and backgrounds.
+- Explored typography, spacing, and visual presentation.
+- Applied CSS concepts to develop the website's visual design.
+- Organized the main styling into an external stylesheet for maintainability.
+
+**Concepts Practiced:**
+- CSS properties
+- Colors and backgrounds
+- Typography
+- Element styling
+- Separation of structure and presentation
+
+### Level 2 — Intermediate
+
+#### Task 3: Responsive Design
+
+**Objective:** Make the website adaptable to different screen sizes.
+
+**Implementation:**
+- Developed responsive page layouts.
+- Used CSS media queries for different viewport sizes.
+- Adapted navigation and content sections for smaller screens.
+- Improved spacing, typography, and element sizing across devices.
+
+**Concepts Practiced:**
+- CSS media queries
+- Responsive layouts
+- Flexbox and layout techniques
+- Mobile-friendly navigation
+- Cross-device usability
+
+#### Task 4: Interactive Button and JavaScript Functionality
+
+**Objective:** Introduce JavaScript to make webpage elements interactive.
+
+**Implementation:**
+- Added interactive controls and buttons.
+- Used JavaScript event listeners to respond to user actions.
+- Implemented dynamic interface updates.
+- Added theme and interaction controls to improve the experience.
+
+**Concepts Practiced:**
+- JavaScript fundamentals
+- DOM manipulation
+- Event listeners
+- Conditional logic
+- Interactive UI development
+
+### Level 3 — Advanced
+
+#### Task 5: API Integration
+
+**Objective:** Retrieve external data and dynamically display it on a webpage.
+
+**API Used:** JSONPlaceholder
+
+**Endpoint:**
+`https://jsonplaceholder.typicode.com/posts`
+
+**Implementation:**
+- Integrated a public REST API using JavaScript `fetch()`.
+- Retrieved JSON responses asynchronously.
+- Processed API data and rendered it dynamically.
+- Added search functionality to filter displayed content.
+- Implemented Load More functionality for incremental data display.
+- Included loading, empty, and error states.
+- Added appropriate handling for failed requests.
+
+**Concepts Practiced:**
+- REST APIs
+- Fetch API
+- JSON parsing
+- Asynchronous JavaScript
+- Promises and async operations
+- Dynamic DOM rendering
+- Error handling
+
+#### Task 6: Form Styling and Validation
+
+**Objective:** Create a user-friendly form with input validation.
+
+**Implementation:**
+- Designed a contact form with appropriate input fields.
+- Styled the form to match the overall website design.
+- Added required-field validation.
+- Implemented email format validation.
+- Integrated EmailJS for browser-based email submission.
+- Added submission feedback for success and errors.
+- Prevented duplicate submissions while a request is processing.
+
+**Email Integration:** EmailJS
+
+**Concepts Practiced:**
+- HTML forms
+- Form styling
+- JavaScript validation
+- Input handling
+- Third-party service integration
+- Asynchronous form submission
+- User feedback and error handling
+
+### Level 4 — Expert
+
+#### Task 7: Component-Based Styling
+
+**Objective:** Explore Bootstrap or another CSS framework to create reusable and consistent interface components.
+
+**Status:** Not yet implemented in the current project.
+
+**Planned Learning:**
+- Bootstrap grid system
+- Navigation components
+- Cards and buttons
+- Responsive framework utilities
+- Component customization
+
+#### Task 8: Introduction to CSS Preprocessing
+
+**Objective:** Learn how CSS preprocessors improve code organization and maintainability.
+
+**Status:** Not yet implemented in the current project.
+
+**Planned Learning:**
+- Sass and SCSS
+- Variables
+- Nested selectors
+- Mixins
+- CSS compilation
 
 ---
 
 ## Features
 
-### 1. Interactive Landing Experience
-- Modern hero section with an animated visual network.
-- Interactive HTML, CSS, JavaScript, and Data nodes.
-- Floating elements with subtle parallax movement.
-- Scroll progress indicator and animated section reveals.
-- Smooth navigation between sections.
+### Interactive User Interface
+- Modern landing page.
+- Animated hero section and visual elements.
+- Smooth scrolling and section transitions.
+- Interactive navigation.
+- Dynamic interface components.
 
-### 2. Responsive Design
-- Responsive layouts for desktop, tablet, and mobile.
-- Mobile navigation menu.
-- Fluid typography and flexible layouts.
-- Carefully designed visual hierarchy.
+### Responsive Experience
+- Desktop, tablet, and mobile layouts.
+- Responsive navigation.
+- Flexible content sections.
+- Mobile-friendly controls.
 
-### 3. Light and Dark Themes
-- Interactive theme switching.
-- Theme preference saved using browser Local Storage.
-- Coordinated colors and components across both themes.
-- Smooth theme transition effects.
+### Theme Customization
+- Light and dark theme support.
+- Theme preference persistence using Local Storage.
+- Consistent visual styling.
 
-### 4. Interactive Experience Section
-- Three interactive preview modes:
-  - Focus
-  - Flow
-  - Quiet
-- Dynamic content updates based on user selection.
-- Reset functionality to restore the default preview.
+### API-Powered Content
+- Dynamic data retrieval.
+- JSONPlaceholder integration.
+- Search and filtering.
+- Load More functionality.
+- Loading and error handling.
 
-### 5. Live API Integration
-- Fetches public sample data from JSONPlaceholder.
-- Dynamically renders API responses as styled cards.
-- Search functionality across post titles and descriptions.
-- Load More functionality with incremental rendering.
-- Loading, empty, and error states.
-- Retry functionality when the API is unavailable.
+### Contact and Communication
+- Functional contact form.
+- EmailJS integration.
+- Input validation.
+- Submission status feedback.
 
-**API Endpoint:**
-`https://jsonplaceholder.typicode.com/posts`
-
-### 6. Functional Contact Form
-- Integrated with EmailJS Browser SDK.
-- Collects name, email, subject, and message.
-- Client-side input validation.
-- Email format validation.
-- Loading, success, and error feedback.
-- Prevents duplicate submissions while a request is processing.
-- Sends messages to the configured recipient.
-
-### 7. Additional Interactions
-- Animated visual elements.
-- Interactive content cards.
-- Keyboard-triggered Easter egg.
-- Accessibility-conscious navigation and controls.
+### Additional Interactions
+- Interactive experience modes.
+- Animated content reveals.
+- Scroll progress indicator.
+- Keyboard interaction.
 - Reduced-motion support.
 
 ---
 
 ## Technology Stack
 
-| Technology | Purpose |
+| Technology | Application |
 |---|---|
-| HTML5 | Semantic structure and content |
-| CSS3 | Styling, animations, layouts, responsiveness |
-| JavaScript (ES6+) | Dynamic interactions and application logic |
-| JSONPlaceholder API | Public sample data |
-| EmailJS | Contact form email integration |
-| Local Storage | Persistent theme preference |
-| Vercel | Hosting and deployment |
-| Git & GitHub | Version control and source management |
+| HTML5 | Webpage structure |
+| CSS3 | Styling and responsive layouts |
+| JavaScript ES6+ | Interactivity and application logic |
+| JSONPlaceholder | External API integration |
+| EmailJS | Contact form email delivery |
+| Local Storage | Persistent theme preferences |
+| Fetch API | Asynchronous data retrieval |
+| Git | Version control |
+| GitHub | Source code management |
+| Vercel | Website hosting and deployment |
 
-### External Resources
-- Google Fonts — DM Sans, Manrope, DM Mono
-- EmailJS Browser SDK v4
-- JSONPlaceholder REST API
+**Note:** The current implementation uses custom HTML, CSS, and JavaScript rather than claiming Bootstrap or Sass implementation.
 
 ---
 
@@ -116,7 +320,6 @@ COGNIFYZ/
 │
 ├── assets/
 │   └── images/
-│       └── ...
 │
 ├── index.html
 ├── styles.css
@@ -126,153 +329,89 @@ COGNIFYZ/
 └── README.md
 ```
 
-| File | Description |
-|---|---|
-| `index.html` | Main application structure |
-| `styles.css` | Responsive styling, themes and animations |
-| `script.js` | Interactions, API integration and form logic |
-| `emailjs-config.js` | Browser-safe EmailJS configuration |
-| `assets/images/` | Project visual assets |
-| `.gitignore` | Git exclusion rules |
-| `README.md` | Project documentation |
+The project uses a simple frontend architecture:
+
+- `index.html` — Main website structure and content.
+- `styles.css` — Layout, styling, responsiveness, and animations.
+- `script.js` — JavaScript interactions, API integration, and form functionality.
+- `emailjs-config.js` — Browser-safe EmailJS configuration.
+- `assets/` — Visual resources used by the application.
+- `.gitignore` — Files excluded from Git tracking.
+- `README.md` — Project and internship documentation.
 
 ---
 
-## Getting Started
-
-Follow these steps to run the project locally.
+## Run the Project Locally
 
 ### Prerequisites
 
 - A modern web browser.
-- Python installed (for the local development server).
-- An internet connection for external fonts, API data, and EmailJS.
+- Python or another local static HTTP server.
+- Internet connection for external API and email services.
 
-### 1. Clone the Repository
+### Step 1: Clone the Repository
 
 ```bash
 git clone https://github.com/jasminefloraa/COGNIFYZ.git
 ```
 
-### 2. Navigate to the Project
+### Step 2: Open the Project Directory
 
 ```bash
 cd COGNIFYZ
 ```
 
-### 3. Configure EmailJS
-
-Create an account at [EmailJS](https://www.emailjs.com/).
-
-Configure the following resources:
-
-1. Create an Email Service and connect your receiving email account.
-2. Create an Email Template.
-3. Obtain your EmailJS Public Key.
-
-Open `emailjs-config.js` and configure:
-
-```javascript
-window.COGNIFYZ_EMAIL_CONFIG = {
-  publicKey: "YOUR_EMAILJS_PUBLIC_KEY",
-  serviceId: "YOUR_EMAILJS_SERVICE_ID",
-  templateId: "YOUR_EMAILJS_TEMPLATE_ID",
-  recipientEmail: "YOUR_RECIPIENT_EMAIL"
-};
-```
-
-Configure the EmailJS template with these exact variables:
-
-```text
-Name: {{from_name}}
-Email: {{reply_to}}
-Subject: {{subject}}
-
-{{message}}
-```
-
-Set the template's Reply-To field to `{{reply_to}}` and configure the intended recipient in the EmailJS dashboard.
-
-**Security note:** The Public Key, Service ID, and Template ID are browser-facing configuration values. Never expose an EmailJS Private Key, account password, or other secret in frontend code.
-
-For production, configure the EmailJS allowed-origin settings for your deployed domain.
-
-### 4. Run Locally
-
-Start a local development server:
+### Step 3: Start the Local Server
 
 ```bash
 python -m http.server 8000
 ```
 
-Open your browser:
+### Step 4: Open in Browser
 
 ```text
 http://localhost:8000
 ```
 
-The application is a static frontend and does not require a Node.js backend or a build process.
+The project is a static frontend application and does not require a dedicated backend server or build process.
 
 ---
 
-## API Integration
+## EmailJS Configuration
 
-The Live Data section uses the JSONPlaceholder public API.
+The contact form uses EmailJS to send messages from the browser.
 
-**Request:**
+To configure your own instance:
 
-```javascript
-fetch("https://jsonplaceholder.typicode.com/posts")
-```
+1. Create an account on [EmailJS](https://www.emailjs.com/).
+2. Connect an email service.
+3. Create an email template.
+4. Obtain the Public Key, Service ID, and Template ID.
+5. Configure the browser-facing settings in the project.
+6. Set the intended recipient inside the EmailJS template.
+7. Configure allowed website origins in EmailJS security settings.
 
-The application:
-- Retrieves post data asynchronously.
-- Validates the response structure.
-- Displays results dynamically.
-- Supports searching and incremental loading.
-- Handles loading and failed-request states.
+**Security considerations:**
 
-API-provided text is inserted using safe DOM text operations rather than being interpreted as HTML.
+- Never include EmailJS Private Keys in frontend code.
+- Never commit account passwords or private credentials.
+- Keep personal recipient addresses out of public source files where possible.
+- Restrict allowed origins and configure appropriate usage limits.
 
----
-
-## EmailJS Integration
-
-The contact form uses the EmailJS Browser SDK to submit messages directly from the frontend.
-
-**Submission flow:**
-
-```text
-User fills contact form
-          |
-          v
-Input validation
-          |
-          v
-EmailJS configuration check
-          |
-          v
-EmailJS send request
-          |
-          v
-Success / Error feedback
-```
-
-A successful EmailJS response confirms that the service accepted the request. Actual inbox delivery should be verified separately.
+EmailJS accepting a request and successful delivery to the recipient's inbox are separate checks. Verify actual inbox delivery when testing.
 
 ---
 
 ## Deployment
 
-The project is deployed using **Vercel** and connected to the GitHub repository.
+The website is deployed through Vercel using the GitHub repository.
 
-| Detail | Information |
+| Deployment Detail | Value |
 |---|---|
-| Hosting Platform | Vercel |
-| Repository | GitHub |
-| Branch | main |
-| Live Website | https://cognifyz-blush.vercel.app/ |
-| Application Type | Static Frontend |
+| Platform | Vercel |
+| Repository | `jasminefloraa/COGNIFYZ` |
+| Branch | `main` |
+| Live URL | https://cognifyz-blush.vercel.app/ |
 
 ### Deployment Workflow
 
@@ -280,7 +419,7 @@ The project is deployed using **Vercel** and connected to the GitHub repository.
 Local Development
        |
        v
-Git Commit
+Git Version Control
        |
        v
 GitHub Repository
@@ -289,69 +428,92 @@ GitHub Repository
 Vercel Deployment
        |
        v
-Live Website
+Publicly Accessible Website
 ```
 
-Future commits pushed to the connected deployment branch can trigger automatic Vercel deployments.
+Changes pushed to the connected GitHub deployment branch can trigger automatic redeployment.
 
 ---
 
 ## Learning Outcomes
 
-This project provided practical experience in:
+Through this internship project, I gained practical experience in:
 
-- Building semantic and accessible web interfaces.
-- Designing responsive layouts using CSS.
-- Implementing JavaScript-driven interactions.
-- Working with asynchronous API requests.
-- Handling API loading and error states.
+- Creating structured web pages using HTML5.
+- Styling web interfaces using CSS3.
+- Building responsive layouts for multiple devices.
+- Writing JavaScript for interactive functionality.
+- Manipulating the DOM based on user actions.
+- Fetching and processing external API data.
+- Implementing search and dynamic content loading.
+- Designing forms with client-side validation.
 - Integrating third-party services using EmailJS.
-- Validating user input and managing form states.
-- Using Local Storage for persistent preferences.
-- Managing source code with Git and GitHub.
-- Deploying a static frontend application with Vercel.
+- Handling asynchronous operations and errors.
+- Managing source code using Git and GitHub.
+- Deploying frontend applications using Vercel.
+
+The project helped me understand how individual frontend technologies work together to create a complete, interactive web application.
 
 ---
 
-## Future Improvements
+## Future Enhancements
 
-- Add more API data sources and filtering options.
-- Introduce additional interactive visualizations.
-- Improve automated accessibility testing.
-- Add enhanced form spam protection.
-- Expand the data explorer with more advanced controls.
-
----
-
-## Acknowledgements
-
-- [Cognifyz Technologies](https://cognifyz.com/) — Internship learning context.
-- [JSONPlaceholder](https://jsonplaceholder.typicode.com/) — Public sample REST API.
-- [EmailJS](https://www.emailjs.com/) — Browser-based email integration.
-- [Vercel](https://vercel.com/) — Deployment and hosting.
+- Complete the Bootstrap-based component styling task.
+- Explore Sass preprocessing and modular stylesheet organization.
+- Expand API-driven functionality.
+- Improve accessibility and automated testing.
+- Introduce additional interactive data visualizations.
+- Enhance form security and spam protection.
 
 ---
 
-## Author
+## Internship Submission and Demonstration
+
+As part of the Cognifyz Technologies internship guidelines, the project demonstration will be presented through a professional video showcasing the completed tasks and application functionality.
+
+The demonstration is intended to cover:
+
+1. Project introduction and overview.
+2. Responsive website walkthrough.
+3. Interactive UI demonstrations.
+4. API integration and dynamic content.
+5. Contact form validation and email submission.
+6. GitHub repository and live deployment.
+
+The demonstration video can be shared on LinkedIn in accordance with the internship submission instructions.
+
+Suggested hashtags:
+
+`#cognifyztechnologies` `#cognifyz` `#cognifyztech` `#frontenddevelopment` `#webdevelopment` `#html` `#css` `#javascript`
+
+---
+
+## Acknowledgement
+
+I would like to acknowledge **Cognifyz Technologies** for providing the structured Front-End Development Internship task framework and an opportunity to strengthen my practical understanding of frontend development.
+
+This project represents my implementation and learning through the internship assignments.
+
+---
+
+## Developer
 
 **Jasmine Flora J**
 
-Computer Science Engineering Student | Aspiring Software Developer
+B.Tech — Computer Science and Engineering
+
+Manakula Vinayagar Institute of Technology
 
 - GitHub: [@jasminefloraa](https://github.com/jasminefloraa)
-- LinkedIn: [jasmine-flora](https://www.linkedin.com/in/jasmine-flora/)
-- Portfolio: [Visit Portfolio](https://github.com/jasminefloraa/jasmine-flora-portfolio)
-
----
-
-## Project Note
-
-This is an independent frontend development demonstration created in the context of the Cognifyz Technologies Front-End Development Internship. It is a personal learning project and is not an official product or platform of Cognifyz Technologies.
+- LinkedIn: [Jasmine Flora](https://www.linkedin.com/in/jasmine-flora/)
+- Portfolio: [GitHub Portfolio](https://github.com/jasminefloraa/jasmine-flora-portfolio)
 
 ---
 
 <p align="center">
-  <strong>Built with curiosity, thoughtful design, and code.</strong>
+  <strong>COGNIFYZ</strong>
   <br/>
-  <sub>cogni.fyz — Where Data Meets Intelligence</sub>
+  <em>Where Data Meets Intelligence</em>
+  <br/><br/>
+  Built with HTML, CSS, JavaScript, and curiosity.
 </p>
